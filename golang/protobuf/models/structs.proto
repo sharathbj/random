@@ -1,0 +1,11 @@
+package models;
+
+message ProtoData{
+		required string name = 1;
+		required int32 age = 2;
+		required string from = 3;
+		required string state = 4;
+		optional string country = 5 [default="Indian"];
+}
+
+
