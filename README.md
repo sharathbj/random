@@ -1,1 +1,1 @@
-Tried out newthings in Golang
+some experiments in Golang and Python
