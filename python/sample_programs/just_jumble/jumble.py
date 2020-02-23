@@ -54,7 +54,7 @@ for val in dicts:
 	count+=1
 	try:
 		respData = callApi(val)
-	except expection as e:
+	except Expection as e:
 		print('exception',val,e)
 		continue
 	if respData['data'] is not None:
